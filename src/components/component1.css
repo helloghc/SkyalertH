@@ -1,0 +1,140 @@
+.component1-container {
+  width: 100%;
+  height: 148px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 150px;
+}
+.component1-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+  flex-direction: row;
+}
+.component1-container2 {
+  flex: 0 0 auto;
+  width: 916px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.component1-text {
+  font-size: 30px;
+}
+.component1-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 42px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  justify-content: undefined;
+}
+.component1-text1 {
+  width: 140px;
+  height: 42px;
+}
+.component1-text2 {
+  color: #ff7a00;
+  width: 140px;
+  height: 42px;
+}
+.component1-text3 {
+  margin-top: var(--dl-space-space-unit);
+}
+.component1-text4 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+.component1-text5 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+.component1-text6 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+@media(max-width: 896px) {
+  .component1-container {
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .component1-container2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  .component1-text {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .component1-container3 {
+    text-align: center;
+  }
+  .component1-text4 {
+    padding: 0;
+  }
+  .component1-text5 {
+    padding: 0;
+  }
+  .component1-text6 {
+    padding: 0;
+  }
+}
+@media(max-width: 425px) {
+  .component1-container {
+    width: 100%;
+    height: 782px;
+    padding: 0;
+    margin-left: 0px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .component1-container1 {
+    width: 346px;
+    margin: 0;
+  }
+  .component1-container2 {
+    width: 100%;
+    height: 582px;
+    margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    margin-bottom: 0;
+  }
+  .component1-text2 {
+    width: 83px;
+  }
+  .component1-text3 {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .component1-text4 {
+    padding: 10px;
+    text-align: center;
+  }
+  .component1-text5 {
+    padding: 10px;
+    text-align: center;
+  }
+  .component1-text6 {
+    padding: 10px;
+    text-align: center;
+  }
+}

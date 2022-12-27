@@ -1,0 +1,82 @@
+.component9-container {
+  flex: 0 0 auto;
+  width: 1007px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.component9-link {
+  display: contents;
+}
+.component9-component {
+  text-decoration: none;
+}
+.component9-link1 {
+  display: contents;
+}
+.component9-component1 {
+  text-decoration: none;
+}
+.component9-link2 {
+  display: contents;
+}
+.component9-component2 {
+  text-decoration: none;
+}
+.component9-link3 {
+  display: contents;
+}
+.component9-component3 {
+  text-decoration: none;
+}
+.component9-navlink {
+  display: contents;
+}
+.component9-card {
+  flex: 0 0 auto;
+  width: 25%;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  max-width: 150px;
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  max-height: 150px;
+  min-height: 150px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.component9-image {
+  width: 50%;
+  height: 40px;
+  object-fit: cover;
+}
+.component9-text {
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+}
+@media(max-width: 763px) {
+  .component9-card {
+    width: 50%;
+  }
+}
+@media(max-width: 425px) {
+  .component9-container {
+    width: 318px;
+    display: grid;
+    padding: 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin-right: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .component9-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,77 @@
+.component2-container {
+  height: 252px;
+  position: relative;
+}
+.component2-container1 {
+  width: 806px;
+  height: 213px;
+  display: flex;
+  align-items: flex-start;
+}
+.component2-container2 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.component2-text {
+  font-size: 45px;
+  text-align: left;
+  line-height: 1;
+}
+.component2-text2 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.component2-text3 {
+  margin: var(--dl-space-space-halfunit);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.component2-text4 {
+  margin: var(--dl-space-space-halfunit);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.component2-text5 {
+  margin: var(--dl-space-space-halfunit);
+  font-size: 15px;
+  line-height: 1.5;
+}
+@media(max-width: 896px) {
+  .component2-text3 {
+    margin-top: 60px;
+  }
+}
+@media(max-width: 425px) {
+  .component2-container {
+    height: 534px;
+    margin-top: -150px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .component2-container1 {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .component2-image {
+    display: none;
+  }
+  .component2-container2 {
+    width: 100%;
+    height: 364px;
+    margin-bottom: 0px;
+  }
+  .component2-text {
+    font-size: 40px;
+    text-align: center;
+  }
+  .component2-text3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .component2-text4 {
+    text-align: center;
+  }
+}

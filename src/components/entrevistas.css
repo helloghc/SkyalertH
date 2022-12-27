@@ -1,0 +1,112 @@
+.entrevistas-container {
+  width: 100%;
+  height: 414px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.entrevistas-container1 {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.entrevistas-container2 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.entrevistas-image {
+  width: 80%;
+  object-fit: cover;
+}
+.entrevistas-image1 {
+  width: 150px;
+  margin-top: 15px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.entrevistas-text {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.entrevistas-text1 {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.entrevistas-button {
+  margin-top: 10px;
+  border-color: var(--dl-color-backgrounds-primary);
+}
+.entrevistas-container3 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.entrevistas-image2 {
+  width: 80%;
+  object-fit: cover;
+}
+.entrevistas-image3 {
+  width: 150px;
+  margin-top: 15px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.entrevistas-text2 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.entrevistas-text3 {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.entrevistas-button1 {
+  margin-top: 10px;
+  border-color: var(--dl-color-backgrounds-primary);
+}
+@media(max-width: 425px) {
+  .entrevistas-container {
+    width: 80%;
+    margin: 90px 0;
+    flex-direction: column;
+  }
+  .entrevistas-container1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .entrevistas-container2 {
+    width: 100%;
+  }
+  .entrevistas-text {
+    margin-bottom: 0;
+  }
+  .entrevistas-container3 {
+    width: 100%;
+  }
+  .entrevistas-image2 {
+    margin-top: 60px;
+  }
+  .entrevistas-text2 {
+    width: 100%;
+  }
+}

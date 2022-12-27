@@ -1,0 +1,25 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.page-text {
+  font-size: 150px;
+  align-self: center;
+}
+.page-text1 {
+  margin-bottom: 200px;
+}
+.page404container {
+    margin: 100px 0 0 0;
+}
+
+h2.page-text1 {
+    text-align: center;
+}

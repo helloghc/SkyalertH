@@ -1,0 +1,84 @@
+.mexico-naranja-container {
+  width: 1206px;
+  height: 296px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mexico-naranja-container1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+.mexico-naranja-text {
+  font-size: 50px;
+  align-self: flex-start;
+  margin-left: 130px;
+  margin-right: auto;
+  padding-right: 5px;
+  justify-content: space-around;
+}
+.mexico-naranja-text1 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 50px;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3px;
+  padding-right: 5px;
+  justify-content: space-around;
+}
+.mexico-naranja-text2 {
+  width: 1144px;
+  font-size: 50px;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+.mexico-naranja-text3 {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mexico-naranja-text4 {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mexico-naranja-text5 {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(max-width: 425px) {
+  .mexico-naranja-container {
+    width: 465px;
+    display: none;
+    font-size: 20px;
+  }
+  .mexico-naranja-container1 {
+    margin: 0;
+    padding: 0;
+  }
+  .mexico-naranja-text {
+    margin: 0;
+    font-size: 30px;
+  }
+  .mexico-naranja-text1 {
+    font-size: 30px;
+  }
+  .mexico-naranja-text2 {
+    font-size: 21px;
+    margin-top: 5px;
+  }
+  .mexico-naranja-text3 {
+    font-size: 20px;
+  }
+}

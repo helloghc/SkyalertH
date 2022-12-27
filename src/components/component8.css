@@ -1,0 +1,59 @@
+.component8-container {
+  width: 432px;
+  height: auto;
+  margin: 0 30px;
+  display: flex;
+  position: relative;
+  box-shadow:  3px 5px #E7E9EB;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component8-image {
+  width: 100%;
+  margin-top: 0px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+}
+.component8-text {
+  margin-top: var(--dl-space-space-unit);
+}
+.component8-text1 {
+  margin: var(--dl-space-space-unit);
+  font-size: 18px;
+  text-align: center;
+}
+.component8-button {
+  margin: var(--dl-space-space-unit);
+  background-color: #ecb304;
+}
+@media(max-width: 1200px) {
+  .component8-container {
+    height: auto;
+    margin: 0 30px;
+  }
+}
+@media(max-width: 763px) {
+  .component8-container {
+    width: 90%;
+    height: auto;
+  }
+}
+@media(max-width: 425px) {
+  .component8-container {
+    width: 70%;
+  }
+  .component8-text1 {
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .component8-button {
+    color: #ffffff;
+    width: 80%;
+    text-align: center;
+    background-color: #fa7930;
+  }
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>SkyAlert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Lexend;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.1;
+        color: var(--dl-color-grays-dark100);
+        background-color: var(--dl-color-grays-white100);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/logo2.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      data-tag="font"
+    />
+    <style>
+      ::placeholder{
+      color: #63667066;
+      }
+
+      .float{
+      	position:fixed;
+      	width:auto;
+      	height:auto;
+      	bottom:40px;
+      	right:10px;
+      	background-color:#25d366;
+      	color:#FFF;
+      	border-radius:50px;
+      	text-align:center;
+        font-size:14px;
+      	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        padding:10px 20px;
+        text-decoration:none;
+      }
+      .float_cotiza{
+      	position:fixed;
+      	width:auto;
+      	height:auto;
+      	bottom:90px;
+      	right:10px;
+      	background-color:#fa7931;
+      	color:#FFF;
+      	border-radius:50px;
+      	text-align:center;
+        font-size:14px;
+      	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        padding:10px 20px;
+        text-decoration:none;
+      }
+
+      .my-float{
+        width:20px;
+        display:inline-block;
+      }
+      .fa-solid{}
+      .fa-house-laptop{}
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="modal-root"></div>
+    <script src="customindex.js"></script>
+    <script>
+    (function () {
+      class Menu {
+        init = () => {
+          this.getMenuElementsAndAddEvents()
+          this.getMenuElementsAndAddEventsByDataAttrs()
+          return this;
+        };
+
+        getMenuElementsAndAddEventsByDataAttrs = () => {
+          const allHeaders = teleport.getAllElementsByDataAttribute('role', 'Header')
+
+          if (!allHeaders.length) {
+            teleport.log("No teleport Headers found in your project")
+          }
+
+          allHeaders.forEach(header => {
+            const burgerBtn = teleport.getElByDataAttribute('type', 'BurgerMenu', header)
+            const mobileMenu = teleport.getElByDataAttribute('type', 'MobileMenu', header)
+            const closeBtn = teleport.getElByDataAttribute('type', 'CloseMobileMenu', header)
+
+            burgerBtn.addEventListener('click', () => {
+              mobileMenu.classList.add('teleport-show')
+            })
+
+            closeBtn.addEventListener('click', () => {
+              mobileMenu.classList.remove('teleport-show')
+            })
+          })
+
+        }
+
+        getMenuElementsAndAddEvents = () => {
+          const menuElements = teleport.getAllElByClass(
+            "teleport-menu-burger"
+          )
+
+          if (!menuElements.length) {
+            teleport.log("No teleport-menu-burger items found");
+            return;
+          }
+
+          menuElements.forEach((burgerMenuElement) => {
+            const mobileMenuElement =
+              burgerMenuElement.nextElementSibling?.className.includes(
+                "teleport-menu-mobile"
+              )
+                ? (burgerMenuElement.nextElementSibling)
+                : null;
+            if (!mobileMenuElement) {
+              teleport.error(
+                `${burgerMenuElement} has no corresponding element with class 'teleport-menu-mobile' as the next sibling.`
+              );
+              return;
+            }
+
+            const closeMenuElement = mobileMenuElement.querySelector(
+              '*[class*="teleport-menu-close"]'
+            );
+            if (!closeMenuElement) {
+              teleport.error(
+                `${mobileMenuElement} has no child element with class 'teleport-menu-close'`
+              );
+              return;
+            }
+
+            burgerMenuElement.addEventListener("click", () => {
+              mobileMenuElement.classList.add("teleport-show");
+            });
+            closeMenuElement.addEventListener("click", () => {
+              mobileMenuElement.classList.remove("teleport-show");
+            });
+          });
+        };
+      }
+
+      class Accordion {
+        init = () => {
+          this.getAccordionElementsAndAddEvents()
+        }
+
+        getAccordionElementsAndAddEvents = () => {
+          const allAccordions = teleport.getAllElementsByDataAttribute('role', 'Accordion')
+
+          if (!allAccordions.length) {
+            teleport.log("No teleport Accordions found in project")
+          }
+
+          allAccordions.forEach(accordion => {
+            const accordionHeader = teleport.getElByDataAttribute('type', 'AccordionHeader', accordion)
+            const accordionContent = teleport.getElByDataAttribute('type', 'AccordionContent', accordion)
+
+            accordionHeader.addEventListener('click', () => {
+              accordionContent.style.maxHeight ?
+                accordionContent.style.maxHeight = "" :
+                accordionContent.style.maxHeight = `${accordionContent.scrollHeight}px`
+            })
+          })
+        }
+      }
+
+      const listenForUrlChanges = () => {
+        let url = location.href;
+        document.body.addEventListener('click', () => {
+          requestAnimationFrame(() => {
+            if (url !== location.href) {
+              new Menu().init()
+              new Accordion().init()
+              url = location.href
+            }
+          });
+        }, true);
+      }
+
+      const teleport = {
+        debug: false,
+        log: (msg, obj) => {
+          if (teleport.debug) {
+            console.log("teleport: " + msg, obj || "");
+          }
+        },
+        error: (msg, object) => {
+          console.error("teleport-error: " + msg, object);
+        },
+        getElByClass: (className) => {
+          const el = document.querySelector(`*[class*="${className}"]`);
+          if (!el) {
+            teleport.log(`did not find element with "${className}" class`);
+          }
+          return el;
+        },
+        getElByDataAttribute: (attribute, value, scope = document) => {
+          const el = scope.querySelector(`[data-${attribute}="${value}"]`)
+          if (!el) {
+            teleport.log(`did not find element with "data-${attribute}=${value}"`)
+          }
+          return el
+        },
+        getAllElByClass: (className) => {
+          const elements = document.querySelectorAll(`*[class*="${className}"]`);
+          if (!elements) {
+            teleport.log(`did not find any elements with "${className}" class`);
+          }
+          return elements;
+        },
+        getAllElementsByDataAttribute: (attribute, value, scope = document) => {
+          const elements = scope.querySelectorAll(`[data-${attribute}="${value}"]`)
+          if (!elements) {
+            teleport.log(`did not find any elements with "data-${attribute}=${value}"`);
+          }
+          return elements
+        },
+        Menu,
+        Accordion,
+      }
+
+      listenForUrlChanges()
+
+      new Menu().init()
+      new Accordion().init()
+    })()
+
+
+    </script>
+    <script>
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
+//demo
+
+
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+
+
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            
+            },
+            true
+          );
+        };
+
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((carrousel) => {
+            initializeSlider(carrousel);
+          });
+        };
+
+        const initializeSlider = (carrousel) => {
+          let currentSlide = 0;
+
+          const slides = carrousel.querySelectorAll('[data-type="slide"]');
+          const nextSlideBtns = carrousel.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = carrousel.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length - 1
+                  ? (currentSlide = 0)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 0
+                  ? (currentSlide = slides.length - 1)
+                  : currentSlide--;
+            }
+
+            carrousel.style.transform = `translateX(${-100 * currentSlide}%)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+
+        };
+
+        runAllScripts();
+      };
+    </script>
+
+    <!-- <a
+      href="https://api.whatsapp.com/send/?phone=525579020029&text=Quisiera+saber+m%C3%A1s+sobre+SkyAlert+&type=phone_number&app_absent=0"
+      class="float_cotiza holae"
+      target="_blank"
+    >
+      <i class="fa-solid fa-house-laptop my-float"></i>
+      Cotiza SkyAlert
+    </a> -->
+
+    <!-- <a
+      href="https://api.whatsapp.com/send/?phone=525579020029&text=Quisiera+saber+m%C3%A1s+sobre+SkyAlert+&type=phone_number&app_absent=0"
+      class="float"
+      target="_blank"
+    >
+      <i class="fa fa-laptop my-float"></i>
+      Soporte técnico
+    </a> -->
+  </body>
+</html>

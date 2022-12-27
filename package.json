@@ -1,0 +1,60 @@
+{
+  "name": "skyalert",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "axios": "^0.27.2",
+    "env-cmd": "^10.1.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.1",
+    "query-string": "^7.1.1",
+    "querystring": "^0.2.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-content-loader": "^6.2.0",
+    "react-facebook": "^8.1.4",
+    "react-ga": "^3.3.1",
+    "react-instagram-embed": "^3.0.0",
+    "react-js-pagination": "^3.0.3",
+    "react-phone-input-2": "^2.15.1",
+    "react-scripts": "^5.0.1",
+    "react-twitter-embed": "^4.0.4",
+    "showdown": "^2.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "test": "craco test --env=jsdom",
+    "build": "ENV_FILE=${ENV_FILE:-.env.staging} NODE_PATH=src/ env-cmd -f $ENV_FILE craco build",
+    "build:staging": "ENV_FILE=.env.staging npm run build",
+    "build:production": "ENV_FILE=.env.production npm run build",
+    "deploy": "S3_URL=${S3_URL:-site.stg.skyalert.mx} aws s3 cp ./build s3://$S3_URL  --recursive --exclude \"*.DS_Store\" --acl public-read --cache-control public,max-age=86400",
+    "deploy:staging": "S3_URL=site.stg.skyalert.mx npm run deploy",
+    "deploy:production": "S3_URL=skyalert.mx npm run deploy",
+    "invalidate": "CF_DIST=${CF_DIST:-E1N8T6KJE9H4YY} aws cloudfront create-invalidation --distribution-id $CF_DIST --paths \"/*\"",
+    "invalidate:staging": "CF_DIST=E1N8T6KJE9H4YY npm run invalidate",
+    "invalidate:production": "CF_DIST=E128KKGS4AHX4S npm run invalidate",
+    "release": "ENV=${ENV:-staging} npm run build:$ENV && npm run deploy:$ENV && npm run invalidate:$ENV",
+    "release:staging": "ENV=staging npm run release",
+    "release:production": "ENV=production npm run release",
+    "eject": "craco eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

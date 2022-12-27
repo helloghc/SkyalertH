@@ -1,0 +1,144 @@
+.heading-sky-alert-13-container {
+  width: 1196px;
+  height: 388px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-sky-alert-13-image {
+  width: 50px;
+  object-fit: cover;
+}
+.heading-sky-alert-13-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.heading-sky-alert-13-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.heading-sky-alert-13-text2 {
+  color: var(--dl-color-backgrounds-primary);
+  font-style: normal;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.heading-sky-alert-13-container3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.heading-sky-alert-13-card {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 200px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,   lightblue border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.heading-sky-alert-13-image1 {
+  width: 100px;
+  padding: 10;
+  margin-top: -70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.heading-sky-alert-13-text4 {
+  margin: 0px;
+  align-self: center;
+  text-align: left;
+}
+.heading-sky-alert-13-text5 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.heading-sky-alert-13-card1 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,  green border-box;;
+  max-height: 200px;
+  min-height: 200px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.heading-sky-alert-13-image2 {
+  width: 100px;
+  padding: 10;
+  margin-top: -70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.heading-sky-alert-13-text6 {
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+  text-align: left;
+}
+.heading-sky-alert-13-text7 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 763px) {
+  .heading-sky-alert-13-card {
+    width: 50%;
+  }
+  .heading-sky-alert-13-card1 {
+    width: 50%;
+  }
+}
+@media(max-width: 425px) {
+  .heading-sky-alert-13-image {
+    margin-bottom: 100px;
+  }
+  .heading-sky-alert-13-text {
+    display: none;
+  }
+  .heading-sky-alert-13-container1 {
+    display: none;
+  }
+  .heading-sky-alert-13-container3 {
+    width: 424px;
+    margin-top: 100;
+    flex-direction: column;
+  }
+  .heading-sky-alert-13-card {
+    width: 100%;
+  }
+  .heading-sky-alert-13-card1 {
+    width: 100%;
+  }
+}

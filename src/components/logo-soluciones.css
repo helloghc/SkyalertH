@@ -1,0 +1,29 @@
+.logo-soluciones-container {
+  width: 1011px;
+  height: 223px;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+.logo-soluciones-component1 {
+  text-decoration: none;
+}
+
+@media(max-width: 896px) {
+  .logo-soluciones-container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media(max-width: 425px) {
+  .logo-soluciones-container {
+    width: 342px;
+    height: 388px;
+    margin-right: 0px;
+  }
+}

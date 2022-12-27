@@ -1,0 +1,346 @@
+.solucionescard1-card {
+  flex: 0 0 auto;
+  width: 25%;
+  border: 2px solid transparent;
+  display: flex;
+  max-width: 150px;
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  max-height: 150px;
+  min-height: 150px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.solucionescard1-image {
+  width: 100px;
+  object-fit: cover;
+}
+.solucionescard1-root-class-name {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name1 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name2 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name3 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name4 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name5 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name6 {
+  margin: var(--dl-space-space-unit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.solucionescard1-root-class-name8 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name9 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name10 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name11 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name12 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name13 {
+  margin: var(--dl-space-space-unit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name14 {
+  width: 25%;
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name15 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name16 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name17 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name18 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name19 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name20 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name21 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name22 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name23 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name24 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name25 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name26 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name27 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name28 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name29 {
+  width: 25%;
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name30 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name31 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name32 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name33 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name34 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name35 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name36 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name37 {
+  width: 25%;
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name38 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name39 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name40 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name41 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name42 {
+  width: 25%;
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name43 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name44 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name45 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+@media(max-width: 1200px) {
+  .solucionescard1-card {
+    width: 50%;
+  }
+}
+@media(max-width: 896px) {
+  .solucionescard1-card {
+    width: 50%;
+  }
+}
+@media(max-width: 763px) {
+  .solucionescard1-card {
+    width: 50%;
+  }
+}
+@media(max-width: 425px) {
+  .solucionescard1-card {
+    width: 100%;
+  }
+  .solucionescard1-root-class-name8 {
+    margin-left: 10px;
+  }
+  .solucionescard1-root-class-name35 {
+    margin-left: 10px;
+  }
+  .solucionescard1-root-class-name42 {
+    margin: auto;
+  }
+  .solucionescard1-root-class-name43 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .solucionescard1-root-class-name44 {
+    margin: auto;
+  }
+  .solucionescard1-root-class-name45 {
+    margin: auto;
+  }
+}

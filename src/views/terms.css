@@ -1,0 +1,149 @@
+.terms-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.terms-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 200px;
+  justify-content: flex-start;
+}
+.terms-text001 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.terms-text002 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 0 10px 0 10px;
+  padding-bottom: 0 10px 0 10px;
+}
+.terms-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.terms-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.terms-text004 {
+  margin-bottom: 40px;
+}
+.terms-text005 {
+  width: 80%;
+}
+.terms-text018 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text019 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text052 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text053 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text066 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text067 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text077 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text078 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text082 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text083 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text097 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text098 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text121 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text122 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text130 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text131 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text140 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.terms-text141 {
+  font-size: 22px;
+  font-weight: 700;
+}
+@media(max-width: 425px) {
+  .terms-container {
+    flex-direction: column;
+  }
+  .terms-text004 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .terms-container1 {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+.terms-text004{
+  text-align: center;
+}
+     }

@@ -1,0 +1,1510 @@
+.app-sky-alert-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.app-sky-alert-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 200px;
+  justify-content: flex-start;
+}
+.app-sky-alert-text01 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.app-sky-alert-text02 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 0 10px 0 10px;
+  padding-bottom: 0 10px 0 10px;
+}
+.app-sky-alert-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.app-sky-alert-container02 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-sky-alert-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.app-sky-alert-image {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.app-sky-alert-container04 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.app-sky-alert-text03 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 40px;
+}
+.app-sky-alert-text05 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text06 {
+  margin-top: 10px;
+}
+.app-sky-alert-image01 {
+  width: 70%;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+.app-sky-alert-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.app-sky-alert-image02 {
+  width: 40px;
+  min-width: 40px;
+}
+.app-sky-alert-container06 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.app-sky-alert-text07 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: revert;
+}
+.app-sky-alert-text09 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text10 {
+  display: inline;
+  margin-top: 10px;
+}
+.app-sky-alert-container07 {
+  width: 100%;
+  height: 371px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.app-sky-alert-container08 {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-icon {
+  width: 24px;
+  height: 24px;
+  margin: var(--dl-space-space-unit);
+}
+.app-sky-alert-text11 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 12px;
+}
+.app-sky-alert-text12 {
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text16 {
+  margin: var(--dl-space-space-unit);
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text17 {
+  color: var(--dl-color-grays-dark80);
+  margin: var(--dl-space-space-unit);
+  text-align: center;
+}
+.app-sky-alert-text18 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text19 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-container09 {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-icon02 {
+  width: 24px;
+  height: 24px;
+  margin: var(--dl-space-space-unit);
+}
+.app-sky-alert-text20 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 12px;
+}
+.app-sky-alert-text21 {
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text25 {
+  margin: var(--dl-space-space-unit);
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text26 {
+  color: var(--dl-color-grays-dark80);
+  margin: var(--dl-space-space-unit);
+  text-align: center;
+}
+.app-sky-alert-text27 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-text28 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text29 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-text30 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text31 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-container10 {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-icon04 {
+  width: 24px;
+  height: 24px;
+  margin: var(--dl-space-space-unit);
+}
+.app-sky-alert-text32 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 12px;
+}
+.app-sky-alert-text33 {
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text35 {
+  margin: var(--dl-space-space-unit);
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text36 {
+  color: var(--dl-color-grays-dark80);
+  margin: var(--dl-space-space-unit);
+  text-align: center;
+}
+.app-sky-alert-text37 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text38 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-container11 {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-icon06 {
+  width: 24px;
+  height: 24px;
+  margin: var(--dl-space-space-unit);
+}
+.app-sky-alert-text39 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 12px;
+}
+.app-sky-alert-text40 {
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text44 {
+  margin: var(--dl-space-space-unit);
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text45 {
+  color: var(--dl-color-grays-dark80);
+  margin: var(--dl-space-space-unit);
+  text-align: center;
+}
+.app-sky-alert-text46 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text47 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-text48 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text49 {
+  color: var(--dl-color-grays-black100);
+}
+.app-sky-alert-container12 {
+  width: 100%;
+  height: 307px;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-sky-alert-text50 {
+  width: 1075px;
+  font-size: 30;
+  align-self: center;
+  text-align: center;
+  line-height: 36px;
+}
+.app-sky-alert-text51 {
+  text-align: center;
+}
+.app-sky-alert-text52 {
+  color: var(--dl-color-backgrounds-primary);
+  text-align: center;
+}
+.app-sky-alert-text53 {
+  color: #000000;
+}
+.app-sky-alert-text54 {
+  color: #fa7930;
+}
+.app-sky-alert-text55 {
+  color: #000000;
+}
+.app-sky-alert-container13 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.app-sky-alert-text60 {
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 30px;
+  font-weight: 300;
+}
+.app-sky-alert-footer {
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-container14 {
+  flex: 0 0 auto;
+  width: 725px;
+  height: 126px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.app-sky-alert-image03 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+}
+.app-sky-alert-image04 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+}
+.app-sky-alert-image05 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+}
+.app-sky-alert-container15 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-sky-alert-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.app-sky-alert-image06 {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.app-sky-alert-container17 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.app-sky-alert-text61 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 40px;
+}
+.app-sky-alert-text63 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text64 {
+  margin-top: 10px;
+}
+.app-sky-alert-container18 {
+  width: 1032px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.app-sky-alert-container19 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-card {
+  flex: 0 0 auto;
+  width: 482px;
+  border: 2px solid transparent;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image07 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text65 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text66 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-card1 {
+  flex: 0 0 auto;
+  width: 483px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image08 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text67 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text68 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-card2 {
+  flex: 0 0 auto;
+  width: 483px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image09 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text69 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text70 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-container20 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-sky-alert-card3 {
+  flex: 0 0 auto;
+  width: 482px;
+  border: 2px solid transparent;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image10 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text71 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text72 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-card4 {
+  flex: 0 0 auto;
+  width: 483px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image11 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text73 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text74 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-card5 {
+  flex: 0 0 auto;
+  width: 483px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 200px;
+  align-items: flex-start;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.app-sky-alert-image12 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.app-sky-alert-text76 {
+  margin: 0px;
+  font-size: 17px;
+  align-self: start;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.app-sky-alert-text77 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 15px;
+  align-self: start;
+  text-align: start;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-container21 {
+  width: 100%;
+  height: 127px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-sky-alert-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.app-sky-alert-image13 {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.app-sky-alert-container23 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.app-sky-alert-text78 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 40px;
+}
+.app-sky-alert-text80 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.app-sky-alert-text81 {
+  margin-top: 10px;
+}
+.app-sky-alert-container24 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.app-sky-alert-image14 {
+  width: 100%;
+  object-fit: cover;
+}
+.app-sky-alert-text82 {
+  display: none;
+}
+.app-sky-alert-text83 {
+  text-align: center;
+}
+.app-sky-alert-text84 {
+  width: 70%;
+  height: 96px;
+  margin: var(--dl-space-space-twounits);
+  font-size: 30px;
+  align-self: center;
+  text-align: center;
+}
+.app-sky-alert-text86 {
+  color: #fa7930;
+}
+.app-sky-alert-text88 {
+  margin: 30px 0;
+}
+.app-sky-alert-footer1 {
+  height: 330px;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.app-sky-alert-container25 {
+  flex: 0 0 auto;
+  width: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app-sky-alert-image15 {
+  width: 100px;
+  align-self: flex-start;
+  object-fit: cover;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.app-sky-alert-container26 {
+  flex: 0 0 auto;
+  width: 783px;
+  height: 126px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.app-sky-alert-link {
+  display: contents;
+}
+.app-sky-alert-image16 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.app-sky-alert-link1 {
+  display: contents;
+}
+.app-sky-alert-image17 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.app-sky-alert-link2 {
+  display: contents;
+}
+.app-sky-alert-image18 {
+  width: 250;
+  padding: 20px;
+  max-width: 250px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.app-sky-alert-container27 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-sky-alert-link3 {
+  display: contents;
+}
+.app-sky-alert-icon08 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.app-sky-alert-link4 {
+  display: contents;
+}
+.app-sky-alert-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.app-sky-alert-link5 {
+  display: contents;
+}
+.app-sky-alert-icon12 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.app-sky-alert-link6 {
+  display: contents;
+}
+.app-sky-alert-icon14 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.app-sky-alert-link7 {
+  display: contents;
+}
+.app-sky-alert-icon16 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.app-sky-alert-text90 {
+  color: var(--dl-color-grays-gray100);
+  margin: var(--dl-space-space-unit);
+  max-width: 350px;
+  align-self: center;
+  text-align: center;
+}
+@media(max-width: 1200px) {
+  .app-sky-alert-container02 {
+    width: 100%;
+    height: auto;
+  }
+  .app-sky-alert-container03 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .app-sky-alert-image {
+    margin-left: 30px;
+  }
+  .app-sky-alert-container04 {
+    width: 85%;
+  }
+  .app-sky-alert-text03 {
+    width: 100%;
+  }
+  .app-sky-alert-text06 {
+    width: 100%;
+  }
+  .app-sky-alert-container05 {
+    width: 100%;
+  }
+  .app-sky-alert-image02 {
+    margin-left: 30px;
+  }
+  .app-sky-alert-container06 {
+    width: 85%;
+  }
+  .app-sky-alert-text07 {
+    width: 100%;
+  }
+  .app-sky-alert-container07 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .app-sky-alert-container08 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container09 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container10 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container11 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container12 {
+    height: auto;
+    margin: 30px 0;
+  }
+  .app-sky-alert-text50 {
+    width: 90%;
+  }
+  .app-sky-alert-text60 {
+    width: 90%;
+    text-align: center;
+  }
+  .app-sky-alert-image06 {
+    margin-left: 30px;
+  }
+  .app-sky-alert-container17 {
+    width: 90%;
+  }
+  .app-sky-alert-text61 {
+    width: 90%;
+  }
+  .app-sky-alert-container18 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .app-sky-alert-container19 {
+    width: 90%;
+  }
+  .app-sky-alert-card {
+    width: 100%;
+    margin: 0;
+  }
+  .app-sky-alert-card1 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .app-sky-alert-card2 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .app-sky-alert-container20 {
+    width: 90%;
+  }
+  .app-sky-alert-card3 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .app-sky-alert-card4 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .app-sky-alert-card5 {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .app-sky-alert-image13 {
+    margin-left: 30px;
+  }
+  .app-sky-alert-text88 {
+    width: 90%;
+    text-align: center;
+  }
+}
+@media(max-width: 896px) {
+  .app-sky-alert-container02 {
+    width: 100%;
+  }
+  .app-sky-alert-container03 {
+    width: 100%;
+    height: auto;
+  }
+  .app-sky-alert-image {
+    margin-left: 10px;
+  }
+  .app-sky-alert-container04 {
+    width: 90%;
+  }
+  .app-sky-alert-text03 {
+    width: 100%;
+  }
+  .app-sky-alert-text06 {
+    width: 90%;
+  }
+  .app-sky-alert-container05 {
+    width: 100%;
+  }
+  .app-sky-alert-image02 {
+    margin-left: 30px;
+  }
+  .app-sky-alert-container06 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-text07 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .app-sky-alert-container07 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .app-sky-alert-container08 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container09 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container10 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container11 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-text50 {
+    width: 90%;
+    font-size: 30px;
+  }
+  .app-sky-alert-text60 {
+    font-size: 14px;
+  }
+  .app-sky-alert-container15 {
+    height: auto;
+  }
+  .app-sky-alert-container16 {
+    height: auto;
+  }
+  .app-sky-alert-image06 {
+    margin-left: 10px;
+  }
+  .app-sky-alert-container17 {
+    width: 90%;
+  }
+  .app-sky-alert-text61 {
+    width: 100%;
+  }
+  .app-sky-alert-container18 {
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .app-sky-alert-image13 {
+    margin-left: 30px;
+  }
+  .app-sky-alert-container23 {
+    width: 100%;
+  }
+  .app-sky-alert-text78 {
+    width: 100%;
+  }
+  .app-sky-alert-text88 {
+    text-align: center;
+  }
+}
+@media(max-width: 763px) {
+  .app-sky-alert-container02 {
+    width: 100%;
+    height: auto;
+  }
+  .app-sky-alert-container03 {
+    height: auto;
+  }
+  .app-sky-alert-container04 {
+    width: 90%;
+  }
+  .app-sky-alert-text03 {
+    width: 90%;
+  }
+  .app-sky-alert-image01 {
+    width: 100%;
+  }
+  .app-sky-alert-container05 {
+    width: 100%;
+  }
+  .app-sky-alert-image02 {
+    margin-left: 10px;
+  }
+  .app-sky-alert-container06 {
+    width: 90%;
+  }
+  .app-sky-alert-text07 {
+    width: 90%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .app-sky-alert-container07 {
+    height: auto;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  .app-sky-alert-container08 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container09 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container10 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container11 {
+    width: 90%;
+    height: auto;
+  }
+  .app-sky-alert-container12 {
+    height: auto;
+  }
+  .app-sky-alert-text50 {
+    width: 90%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .app-sky-alert-footer {
+    height: auto;
+    flex-direction: column;
+  }
+  .app-sky-alert-container14 {
+    height: auto;
+    flex-direction: column;
+  }
+  .app-sky-alert-container16 {
+    width: 90%;
+  }
+  .app-sky-alert-image06 {
+    margin-left: 10px;
+  }
+  .app-sky-alert-container17 {
+    width: 100%;
+  }
+  .app-sky-alert-text61 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .app-sky-alert-container18 {
+    width: 100%;
+  }
+  .app-sky-alert-container19 {
+    width: 100%;
+    align-items: center;
+    text-justify: inter-character;
+  }
+  .app-sky-alert-card {
+    width: 80%;
+  }
+  .app-sky-alert-card1 {
+    width: 80%;
+  }
+  .app-sky-alert-card2 {
+    width: 80%;
+  }
+  .app-sky-alert-container20 {
+    width: 100%;
+    align-items: center;
+  }
+  .app-sky-alert-card3 {
+    width: 80%;
+  }
+  .app-sky-alert-card4 {
+    width: 80%;
+  }
+  .app-sky-alert-card5 {
+    width: 80%;
+  }
+  .app-sky-alert-container21 {
+    width: 100%;
+    height: auto;
+  }
+  .app-sky-alert-container22 {
+    width: 100%;
+  }
+  .app-sky-alert-image13 {
+    margin-left: 10px;
+  }
+  .app-sky-alert-container23 {
+    width: 100%;
+  }
+  .app-sky-alert-text78 {
+    width: 80%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .app-sky-alert-text81 {
+    width: 80%;
+  }
+  .app-sky-alert-text84 {
+    height: auto;
+  }
+  .app-sky-alert-text88 {
+    height: auto;
+    text-align: center;
+  }
+  .app-sky-alert-footer1 {
+    height: auto;
+  }
+  .app-sky-alert-container26 {
+    height: auto;
+    flex-direction: column;
+  }
+}
+@media(max-width: 425px) {
+  .app-sky-alert-container01 {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+  }
+  .app-sky-alert-container02 {
+    width: 90%;
+    padding-top: var(--dl-space-space-twounits);
+    margin-bottom: 50px;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .app-sky-alert-container03 {
+    padding: 0;
+    justify-content: center;
+  }
+  .app-sky-alert-image {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .app-sky-alert-container04 {
+    width: 100%;
+    align-items: center;
+  }
+  .app-sky-alert-text03 {
+    width: 100%;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    line-height: 31px;
+  }
+  .app-sky-alert-text06 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .app-sky-alert-image01 {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .app-sky-alert-container05 {
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+  }
+  .app-sky-alert-image02 {
+    width: 40px;
+    margin: 0;
+    display: none;
+  }
+  .app-sky-alert-container06 {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-sky-alert-text07 {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    position: relative;
+    font-size: 23px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .app-sky-alert-text10 {
+    width: auto;
+    display: none;
+    text-align: center;
+  }
+  .app-sky-alert-container07 {
+    width: 100%;
+    height: 1131px;
+    flex-direction: column;
+  }
+  .app-sky-alert-container08 {
+    width: 85%;
+    height: 305px;
+  }
+  .app-sky-alert-container09 {
+    width: 85%;
+    height: 273px;
+  }
+  .app-sky-alert-container10 {
+    width: 85%;
+    height: 305px;
+  }
+  .app-sky-alert-container11 {
+    width: 85%;
+    height: 305px;
+  }
+  .app-sky-alert-container12 {
+    height: auto;
+    margin: var(--dl-space-space-oneandhalfunits);
+    padding: 0px;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .app-sky-alert-text50 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-top: -200p;
+    line-height: 30px;
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .app-sky-alert-container13 {
+    margin: 30px 0;
+    font-size: 30px;
+  }
+  .app-sky-alert-text60 {
+    margin: 0px;
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+  }
+  .app-sky-alert-footer {
+    width: 100%;
+    height: auto;
+  }
+  .app-sky-alert-container14 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .app-sky-alert-image03 {
+    width: 100%;
+    display: block;
+  }
+  .app-sky-alert-image04 {
+    display: inline-block;
+  }
+  .app-sky-alert-image05 {
+    display: inline-block;
+  }
+  .app-sky-alert-container15 {
+    height: 142px;
+    justify-content: center;
+  }
+  .app-sky-alert-container16 {
+    width: 370px;
+    padding: 0;
+    justify-content: center;
+  }
+  .app-sky-alert-image06 {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .app-sky-alert-container17 {
+    width: 100%;
+  }
+  .app-sky-alert-text61 {
+    width: 371px;
+    align-self: center;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .app-sky-alert-text64 {
+    padding: 0 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .app-sky-alert-container18 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  .app-sky-alert-container19 {
+    width: 90%;
+    align-items: center;
+  }
+  .app-sky-alert-card {
+    width: 100%;
+  }
+  .app-sky-alert-card1 {
+    width: 100%;
+  }
+  .app-sky-alert-card2 {
+    width: 100%;
+  }
+  .app-sky-alert-container20 {
+    width: 100%;
+    align-items: center;
+  }
+  .app-sky-alert-card3 {
+    width: 90%;
+  }
+  .app-sky-alert-card4 {
+    width: 90%;
+  }
+  .app-sky-alert-card5 {
+    width: 90%;
+  }
+  .app-sky-alert-container21 {
+    padding: 0 50px;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .app-sky-alert-container22 {
+    width: 370px;
+    padding: 0;
+    justify-content: center;
+  }
+  .app-sky-alert-image13 {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .app-sky-alert-container23 {
+    width: 100%;
+  }
+  .app-sky-alert-text78 {
+    width: 371px;
+    align-self: center;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .app-sky-alert-text81 {
+    padding: 0 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .app-sky-alert-text82 {
+    width: 90%;
+    display: inline;
+    font-size: 25px;
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-sky-alert-text84 {
+    width: 90%;
+    font-size: 20px;
+  }
+  .app-sky-alert-text88 {
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .app-sky-alert-container26 {
+    width: 389px;
+    height: 218px;
+    flex-direction: column;
+  }
+  .app-sky-alert-image16 {
+    width: 251px;
+    display: inline-block;
+    padding: 0;
+  }
+  .app-sky-alert-image17 {
+    margin: 15px 0;
+    display: inline-block;
+    padding: 0;
+  }
+  .app-sky-alert-image18 {
+    display: inline-block;
+    padding: 0;
+  }
+  .app-sky-alert-container27 {
+    width: 332px;
+    height: 47px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,1245 @@
+.r-e-d-sky-alert-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.r-e-d-sky-alert-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 200px;
+  justify-content: flex-start;
+}
+.r-e-d-sky-alert-text01 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.r-e-d-sky-alert-text02 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 0 10px 0 10px;
+  padding-bottom: 0 10px 0 10px;
+}
+.r-e-d-sky-alert-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.r-e-d-sky-alert-container02 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.r-e-d-sky-alert-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.r-e-d-sky-alert-image {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.r-e-d-sky-alert-container04 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-text03 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text05 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.r-e-d-sky-alert-text06 {
+  margin-top: 10px;
+}
+.r-e-d-sky-alert-container05 {
+  width: 100%;
+  height: 441px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.r-e-d-sky-alert-container06 {
+  width: 528px;
+  height: 100px;
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.r-e-d-sky-alert-image01 {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text07 {
+  padding: 10px;
+}
+.r-e-d-sky-alert-text08 {
+  padding: 10px;
+  margin-top: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-text09 {
+  padding: 10px;
+  margin-top: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-container07 {
+  width: 372px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-card {
+  flex: 0 0 auto;
+  width: 330px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  max-width: 330px;
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 150px;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-style: solid;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 2em;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+}
+.r-e-d-sky-alert-text10 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 60px;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text11 {
+  font-size: 60px;
+  line-height: 40px;
+}
+.r-e-d-sky-alert-text12 {
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.r-e-d-sky-alert-card1 {
+  flex: 0 0 auto;
+  width: 330px;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  max-width: 330px;
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  min-height: 150px;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-style: solid;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 2em;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+}
+.r-e-d-sky-alert-text13 {
+  color: var(--dl-color-backgrounds-primary);
+  font-size: 60px;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text14 {
+  font-size: 60px;
+  line-height: 40px;
+}
+.r-e-d-sky-alert-text15 {
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.r-e-d-sky-alert-container08 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.r-e-d-sky-alert-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.r-e-d-sky-alert-image02 {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.r-e-d-sky-alert-container10 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-text16 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text18 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.r-e-d-sky-alert-text19 {
+  margin-top: 10px;
+}
+.r-e-d-sky-alert-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.r-e-d-sky-alert-image03 {
+  width: 75%;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-container12 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+.r-e-d-sky-alert-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.r-e-d-sky-alert-image04 {
+  width: 40px;
+}
+.r-e-d-sky-alert-container14 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-text20 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text22 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.r-e-d-sky-alert-text23 {
+  margin-top: 10px;
+}
+.r-e-d-sky-alert-container15 {
+  width: 100%;
+  height: 369px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.r-e-d-sky-alert-container16 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.r-e-d-sky-alert-container17 {
+  width: 100%;
+  height: 233px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.r-e-d-sky-alert-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.r-e-d-sky-alert-image05 {
+  width: 40px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.r-e-d-sky-alert-container19 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-text24 {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  line-height: 50px;
+}
+.r-e-d-sky-alert-text26 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.r-e-d-sky-alert-text27 {
+  margin-top: 10px;
+}
+.r-e-d-sky-alert-container20 {
+  width: 1196px;
+  height: 388px;
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.r-e-d-sky-alert-image06 {
+  width: 50px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text28 {
+  margin: var(--dl-space-space-twounits);
+}
+.r-e-d-sky-alert-text29 {
+  display: none;
+}
+.r-e-d-sky-alert-container21 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.r-e-d-sky-alert-container22 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.r-e-d-sky-alert-text31 {
+  color: var(--dl-color-backgrounds-primary);
+  font-style: normal;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-container23 {
+  width: 100%;
+  height: 345px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.r-e-d-sky-alert-card2 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 200px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,   lightblue border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image07 {
+  width: 90px;
+  padding: 10;
+  margin-top: -70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.r-e-d-sky-alert-text33 {
+  margin: 0px;
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text34 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-card3 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,  green border-box;;
+  max-height: 200px;
+  min-height: 200px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image08 {
+  width: 90px;
+  padding: 10;
+  margin-top: -70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.r-e-d-sky-alert-text35 {
+  height: 24px;
+  margin: 0px;
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text36 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-text37 {
+  width: 924px;
+  height: 139px;
+  margin: var(--dl-space-space-threeunits);
+  display: none;
+  text-align: center;
+}
+.r-e-d-sky-alert-container24 {
+  width: 1196px;
+  height: 636px;
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.r-e-d-sky-alert-image09 {
+  width: 50px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-image10 {
+  width: 50px;
+  display: none;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text39 {
+  display: none;
+}
+.r-e-d-sky-alert-text40 {
+  width: 924px;
+  height: 139px;
+  margin: var(--dl-space-space-threeunits);
+  display: none;
+  text-align: center;
+}
+.r-e-d-sky-alert-container25 {
+  width: 100%;
+  height: 236px;
+  display: flex;
+  align-self: center;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.r-e-d-sky-alert-card4 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 180px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,    yellow border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image11 {
+  width: 70px;
+  margin-top: -70px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text41 {
+  margin: var(--dl-space-space-unit);
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text42 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-card5 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 180px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,   orange border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image12 {
+  width: 70px;
+  margin-top: -70px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text43 {
+  margin: var(--dl-space-space-unit);
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text44 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-container26 {
+  width: 100%;
+  height: 236px;
+  display: flex;
+  align-self: center;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.r-e-d-sky-alert-card6 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 180px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,     red border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image13 {
+  width: 70px;
+  margin-top: -70px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text45 {
+  margin: var(--dl-space-space-unit);
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text46 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.r-e-d-sky-alert-card7 {
+  flex: 0 0 auto;
+  width: 33%;
+  border: 2px solid transparent;
+  height: 180px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  background: linear-gradient(#fff 0 0) padding-box,   purple border-box;;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+}
+.r-e-d-sky-alert-image14 {
+  width: 70px;
+  margin-top: -70px;
+  object-fit: cover;
+}
+.r-e-d-sky-alert-text47 {
+  margin: var(--dl-space-space-unit);
+  align-self: center;
+  text-align: left;
+}
+.r-e-d-sky-alert-text48 {
+  color: var(--dl-color-grays-gray100);
+  font-size: 18px;
+  align-self: center;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 1200px) {
+  .r-e-d-sky-alert-container02 {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .r-e-d-sky-alert-image {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-image02 {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-image03 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container12 {
+    height: auto;
+    margin: 30px 0;
+  }
+  .r-e-d-sky-alert-container13 {
+    height: auto;
+  }
+  .r-e-d-sky-alert-image04 {
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-container14 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text20 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-text23 {
+    width: 85%;
+  }
+  .r-e-d-sky-alert-container17 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container18 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-image05 {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-container19 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text24 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container20 {
+    width: 100%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-container23 {
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card2 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-card3 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container24 {
+    width: 100%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-image10 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text39 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text40 {
+    display: none;
+  }
+  .r-e-d-sky-alert-container25 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card4 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-card5 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container26 {
+    height: auto;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card6 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-card7 {
+    width: 90%;
+  }
+}
+@media(max-width: 896px) {
+  .r-e-d-sky-alert-image {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-container04 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text03 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container10 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text16 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text20 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .r-e-d-sky-alert-text23 {
+    width: 80%;
+  }
+  .r-e-d-sky-alert-image05 {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-container19 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text24 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-image10 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text39 {
+    display: none;
+  }
+}
+@media(max-width: 763px) {
+  .r-e-d-sky-alert-container02 {
+    width: 100%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-container03 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .r-e-d-sky-alert-image {
+    margin-left: 10px;
+  }
+  .r-e-d-sky-alert-container04 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-text03 {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .r-e-d-sky-alert-container05 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-container06 {
+    width: 100%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-container07 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-card {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card1 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container08 {
+    width: 90%;
+    height: auto;
+    margin: 30px 0;
+  }
+  .r-e-d-sky-alert-container09 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-image02 {
+    margin-left: 10px;
+  }
+  .r-e-d-sky-alert-container10 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-text16 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .r-e-d-sky-alert-text19 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-image03 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container12 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container13 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-image04 {
+    margin-left: 30px;
+  }
+  .r-e-d-sky-alert-container14 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text20 {
+    width: 90%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .r-e-d-sky-alert-text23 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container15 {
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-container17 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .r-e-d-sky-alert-container18 {
+    width: 90%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-text24 {
+    width: 90%;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .r-e-d-sky-alert-text27 {
+    width: 90%;
+  }
+  .r-e-d-sky-alert-container20 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .r-e-d-sky-alert-container21 {
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-container22 {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-text32 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .r-e-d-sky-alert-container23 {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card2 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card3 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container24 {
+    width: 90%;
+    height: auto;
+    margin: 0;
+  }
+  .r-e-d-sky-alert-image10 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text39 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text40 {
+    width: 100%;
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .r-e-d-sky-alert-container25 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card4 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card5 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container26 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card6 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card7 {
+    width: 100%;
+  }
+}
+@media(max-width: 425px) {
+  .r-e-d-sky-alert-container01 {
+    width: 80%;
+    margin: 0;
+  }
+  .r-e-d-sky-alert-main {
+    height: 100%;
+  }
+  .r-e-d-sky-alert-container02 {
+    width: 90%;
+    height: auto;
+    padding-top: 0 50px;
+    padding-bottom: 0 50px;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-container03 {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-image {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .r-e-d-sky-alert-container04 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-text03 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .r-e-d-sky-alert-text06 {
+    text-align: center;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-container06 {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    text-align: center;
+  }
+  .r-e-d-sky-alert-image01 {
+    margin: 10px 0;
+  }
+  .r-e-d-sky-alert-text07 {
+    padding: 0;
+  }
+  .r-e-d-sky-alert-text08 {
+    padding: 0;
+  }
+  .r-e-d-sky-alert-container07 {
+    height: auto;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card1 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container08 {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-container09 {
+    width: 100%&;
+    height: auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-image02 {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .r-e-d-sky-alert-container10 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-text16 {
+    width: 371px;
+    align-self: center;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .r-e-d-sky-alert-text19 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-image03 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-container12 {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-image04 {
+    margin: 0;
+    display: none;
+  }
+  .r-e-d-sky-alert-container14 {
+    width: 100%;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-text20 {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .r-e-d-sky-alert-text23 {
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .r-e-d-sky-alert-container15 {
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-container17 {
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-container18 {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    justify-content: center;
+  }
+  .r-e-d-sky-alert-image05 {
+    display: none;
+    margin-top: 0 10px 0 0 ;
+    margin-left: 3px;
+    margin-right: 0 10px 0 0 ;
+    margin-bottom: 0 10px 0 0 ;
+  }
+  .r-e-d-sky-alert-container19 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-text24 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+  .r-e-d-sky-alert-text27 {
+    text-align: center;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-container20 {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    align-items: center;
+  }
+  .r-e-d-sky-alert-text28 {
+    display: inline;
+    text-align: center;
+  }
+  .r-e-d-sky-alert-text29 {
+    color: black;
+    width: 80%;
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+  }
+  .r-e-d-sky-alert-container21 {
+    display: none;
+  }
+  .r-e-d-sky-alert-container23 {
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card2 {
+    width: 100%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-card3 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .r-e-d-sky-alert-text37 {
+    color: black;
+    width: 100%;
+    height: 112px;
+    margin: 0;
+    display: none;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .r-e-d-sky-alert-container24 {
+    width: 90%;
+    height: auto;
+  }
+  .r-e-d-sky-alert-image09 {
+    display: none;
+  }
+  .r-e-d-sky-alert-text38 {
+    display: none;
+    margin-bottom: 200px;
+  }
+  .r-e-d-sky-alert-image10 {
+    display: inline;
+  }
+  .r-e-d-sky-alert-text39 {
+    display: inline;
+  }
+  .r-e-d-sky-alert-text40 {
+    color: black;
+    width: 100%;
+    height: 112px;
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .r-e-d-sky-alert-container25 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .r-e-d-sky-alert-card4 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-card5 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .r-e-d-sky-alert-container26 {
+    height: auto;
+    margin-top: -10px;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .r-e-d-sky-alert-card6 {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .r-e-d-sky-alert-card7 {
+    width: 100%;
+  }
+  .r-e-d-sky-alert-image14 {
+    margin-top: -70;
+  }
+}

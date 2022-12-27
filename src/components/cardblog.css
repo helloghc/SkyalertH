@@ -1,0 +1,123 @@
+.cardblog-container {
+  width: 432px;
+  height: auto;
+  display: flex;
+  position: relative;
+  box-shadow:  3px 5px #E7E9EB;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardblog-image {
+  width: 100%;
+  margin-top: 0px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+}
+.cardblog-text {
+  margin-top: var(--dl-space-space-unit);
+}
+.cardblog-text1 {
+  margin: var(--dl-space-space-unit);
+  font-size: 18px;
+  text-align: center;
+}
+.cardblog-button {
+  margin: var(--dl-space-space-unit);
+  background-color: #ecb304;
+}
+.cardblog-root-class-name {
+  max-width: 30%;
+  /* height: auto; */
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name1 {
+  width: 30%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name2 {
+  width: 30%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name3 {
+  width: 30%;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name4 {
+  width: 30%;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name5 {
+  width: 30%;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name6 {
+  width: 30%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name7 {
+  width: 30%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+}
+.cardblog-root-class-name8 {
+  width: 30%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+}
+@media(max-width: 479px) {
+  .cardblog-container {
+    width: 70%;
+  }
+  .cardblog-text1 {
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cardblog-button {
+    color: #ffffff;
+    width: 80%;
+    text-align: center;
+    background-color: #fa7930;
+  }
+  .cardblog-root-class-name {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .cardblog-root-class-name1 {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .cardblog-root-class-name2 {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+  }
+  .cardblog-root-class-name6 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .cardblog-root-class-name7 {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cardblog-root-class-name8 {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+  }
+}

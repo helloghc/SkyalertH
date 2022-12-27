@@ -1,0 +1,98 @@
+.heading-sky-alert-labs-container {
+  width: 100%;
+  height: 248px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-sky-alert-labs-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 150px;
+}
+.heading-sky-alert-labs-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+  flex-direction: row;
+}
+.heading-sky-alert-labs-container3 {
+  flex: 0 0 auto;
+  width: 916px;
+  height: auto;
+  display: flex;
+  margin-top: 15px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.heading-sky-alert-labs-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 42px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  justify-content: undefined;
+}
+.heading-sky-alert-labs-text {
+  width: 140px;
+  height: 42px;
+}
+.heading-sky-alert-labs-text1 {
+  color: #ff7a00;
+  height: 42px;
+}
+.heading-sky-alert-labs-text2 {
+  margin-top: var(--dl-space-space-unit);
+}
+@media(max-width: 896px) {
+  .heading-sky-alert-labs-container1 {
+    flex-direction: column;
+  }
+  .heading-sky-alert-labs-container2 {
+    width: 100%;
+  }
+  .heading-sky-alert-labs-container3 {
+    width: 100%;
+  }
+  .heading-sky-alert-labs-container4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media(max-width: 425px) {
+  .heading-sky-alert-labs-container {
+    width: 402px;
+    height: 303px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading-sky-alert-labs-container1 {
+    width: 100%;
+    height: 288px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .heading-sky-alert-labs-container2 {
+    width: 100%;
+    height: 116px;
+    margin: 0;
+  }
+  .heading-sky-alert-labs-container3 {
+    width: 399px;
+    height: 133px;
+    margin: 0;
+  }
+  .heading-sky-alert-labs-text2 {
+    width: auto;
+    align-self: center;
+    text-align: center;
+  }
+}

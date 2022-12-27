@@ -1,0 +1,141 @@
+.heading-sky-alert-safety-container {
+  width: 100%;
+  height: 303px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-sky-alert-safety-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 150px;
+}
+.heading-sky-alert-safety-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+  flex-direction: row;
+}
+.heading-sky-alert-safety-container3 {
+  flex: 0 0 auto;
+  width: 916px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.heading-sky-alert-safety-text {
+  font-size: 30px;
+}
+.heading-sky-alert-safety-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 42px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  justify-content: undefined;
+}
+.heading-sky-alert-safety-text1 {
+  width: 140px;
+  height: 42px;
+}
+.heading-sky-alert-safety-text2 {
+  color: #ff7a00;
+  height: 42px;
+}
+.heading-sky-alert-safety-text3 {
+  margin-top: var(--dl-space-space-unit);
+}
+.heading-sky-alert-safety-text4 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+.heading-sky-alert-safety-text5 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+.heading-sky-alert-safety-text6 {
+  margin-top: 10px;
+  padding-right: 160px;
+}
+@media(max-width: 896px) {
+  .heading-sky-alert-safety-container1 {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading-sky-alert-safety-container3 {
+    width: 100%;
+  }
+  .heading-sky-alert-safety-text {
+    margin: 20px 0;
+  }
+  .heading-sky-alert-safety-container4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading-sky-alert-safety-text4 {
+    padding: 0;
+  }
+  .heading-sky-alert-safety-text5 {
+    padding: 0;
+  }
+  .heading-sky-alert-safety-text6 {
+    padding: 0;
+  }
+}
+@media(max-width: 425px) {
+  .heading-sky-alert-safety-container {
+    width: 80%;
+    height: 674px;
+    margin-top: 70px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .heading-sky-alert-safety-container2 {
+    width: 100%;
+    padding-top: 0 30px;
+    padding-bottom: 0 30px;
+  }
+  .heading-sky-alert-safety-container3 {
+    width: 100%;
+    align-items: center;
+  }
+  .heading-sky-alert-safety-container4 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading-sky-alert-safety-text1 {
+    width: auto;
+    font-size: 15;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+  .heading-sky-alert-safety-text2 {
+    font-size: 15;
+    margin-right: auto;
+  }
+  .heading-sky-alert-safety-text3 {
+    width: 90%;
+  }
+  .heading-sky-alert-safety-text4 {
+    width: 90%;
+  }
+  .heading-sky-alert-safety-text5 {
+    width: 90%;
+  }
+  .heading-sky-alert-safety-text6 {
+    width: 90%;
+  }
+}
