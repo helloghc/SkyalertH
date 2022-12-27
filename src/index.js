@@ -55,22 +55,18 @@ const App = () => {
             <Route exact component={Home} path="/" />
             <Route exact component={PorQuSkyAlert} path="/por-que-skyalert" />
             <Route exact component={Licenciatarios} path="/licenciatarios" />
+            <Route component={Page404} path="/404" />
             <Route exact component={Prensa} path="/prensa" />
             <Route exact component={PostDetail} path="/prensa/:name" />
-	    <Route path="*" component={Page404} />
-		
+
           </Switch>
         </Router>
-        {window.location.pathname !== '/protege-a-tu-personal-epicenter-01'
-        } else {
-          window.location.pathname !== '/licenciatarios' &&
+        {window.location.pathname !== '/protege-a-tu-personal-epicenter-01' &&
           <FloatButton sticked={isSticky} type='info' />
         }
-        
-        
-        {window.location.pathname !== '/licenciatarios' &&
+
         <FloatButton sticked={isSticky} type='whatsapp' />
-        }
+        {
 					isOpenModalEpicenter && (
 						<ModalEpicenter
 							id="modal"
