@@ -69,12 +69,11 @@ const App = () => {
           </Switch>
         </Router>
         {window.location.pathname !== '/protege-a-tu-personal-epicenter-01'
-        } else {
+        }
+        {
           window.location.pathname !== '/licenciatarios' &&
           <FloatButton sticked={isSticky} type='info' />
         }
-
-
         {window.location.pathname !== '/licenciatarios' &&
         <FloatButton sticked={isSticky} type='whatsapp' />
         }
