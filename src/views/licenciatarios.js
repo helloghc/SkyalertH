@@ -123,7 +123,7 @@ const Licenciatarios = (props) => {
                 <h2 className="licenciatarios-text29">
                   ¿Qué es un licenciatario certificado de SkyAlert?
                 </h2>
-                <span className="licenciatarios-text30">Es una persona moral que obtiene el derecho a comercializar la <strong>suite de  soluciones SkyAlert</strong> en el territorio nacional</span>
+                <span className="licenciatarios-text30 notbold">Es una persona moral que obtiene el derecho a comercializar la <strong>suite de  soluciones SkyAlert</strong> en el territorio nacional</span>
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ const Licenciatarios = (props) => {
       <Link to="/conviertete-en-licenciatario" >
         <button className='conocer-mas'>Quiero conocer más</button>
       </Link>
-    
+
       <Footer rootClassName="footer-root-class-name1"></Footer>
       <Copyright rootClassName="copyright-root-class-name"></Copyright>
     </div>
