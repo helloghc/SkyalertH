@@ -44,21 +44,23 @@ const Navbarblack = (props) => {
               </div>
             </div>
             <nav className="navbarblack-nav2">
-              <Link to="/" className="navbarblack-text navbar-link">
+            <Link to="/" className="navbarblack-text navbar-link" onClick={() => window.location.href = "./"}>
                 {props.text1}
               </Link>
               <Link
                 to="/suite-de-soluciones"
                 className="navbarblack-navlink navbar-link"
+                onClick={() => window.location.href = "./suite-de-soluciones"}
               >
                 {props.text11}
               </Link>
-              <Link to="/app" className="navbarblack-navlink1 navbar-link">
+              <Link to="/app" className="navbarblack-navlink1 navbar-link" onClick={() => window.location.href = "./app"}>
                 {props.text2}
               </Link>
               <Link
                 to="/red-skyalert"
                 className="navbarblack-navlink2 navbar-link"
+                onClick={() => window.location.href = "./red-skyalert"}
               >
                 {props.text3}
               </Link>
@@ -66,16 +68,18 @@ const Navbarblack = (props) => {
                 href="/por-que-skyalert"
                 rel="noreferrer noopener"
                 className="navbarblack-link navbar-link"
+                onClick={() => window.location.href = "./por-que-skyalert"}
               >
                 {props.text4}
               </a>
               <Link
                 to="/licenciatarios"
                 className="navbar-navlink3 navbar-link"
+                onClick={() => window.location.href = "./licenciatarios"}
               >
                 {props.text5}
               </Link>
-              <Link to="/prensa" className="navbarblack-navlink3 navbar-link">
+              <Link to="/prensa" className="navbarblack-navlink3 navbar-link" onClick={() => window.location.href = "./prensa"}>
                 {props.text41}
               </Link>
               <a

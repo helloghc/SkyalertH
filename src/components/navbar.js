@@ -55,34 +55,37 @@ const Navbar = (props) => {
               </div>
             </div>
             <nav className="navbar-nav2">
-              <Link to="/" className="navbar-text navbar-link">
+            <Link to="/" className="navbar-text navbar-link" onClick={() => window.location.href = "./"}>
                 {props.text1}
               </Link>
               <Link
                 to="/suite-de-soluciones"
                 className="navbar-navlink navbar-link"
+                onClick={() => window.location.href = "./suite-de-soluciones"}
               >
                 {props.text11}
               </Link>
-              <Link to="/app" className="navbar-navlink1 navbar-link">
+              <Link to="/app" className="navbar-navlink1 navbar-link" onClick={() => window.location.href = "./app"}>
                 {props.text2}
               </Link>
-              <Link to="/red-skyalert" className="navbar-navlink2 navbar-link">
+              <Link to="/red-skyalert" className="navbar-navlink2 navbar-link" onClick={() => window.location.href = "./red-skyalert"}>
                 {props.text3}
               </Link>
               <Link
                 to="/por-que-skyalert"
                 className="navbar-navlink3 navbar-link"
+                onClick={() => window.location.href = "./por-que-skyalert"}
               >
                 {props.text4}
               </Link>
               <Link
                 to="/licenciatarios"
                 className="navbar-navlink3 navbar-link"
+                onClick={() => window.location.href = "./licenciatarios"}
               >
                 {props.text5}
               </Link>
-              <Link to="/prensa" className="navbar-navlink4 navbar-link">
+              <Link to="/prensa" className="navbar-navlink4 navbar-link" onClick={() => window.location.href = "./prensa"}>
                 {props.text41}
               </Link>
 

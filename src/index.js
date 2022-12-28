@@ -64,8 +64,6 @@ const App = () => {
             <Route exact component={formLicenciatarios} path="/conviertete-en-licenciatario" />
             <Route exact component={PostDetail} path="/prensa/:name" />
             <Route path="*" component={Page404} />
-
-
           </Switch>
         </Router>
         {window.location.pathname !== '/protege-a-tu-personal-epicenter-01'
