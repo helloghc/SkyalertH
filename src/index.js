@@ -76,10 +76,10 @@ const App = () => {
         {window.location.pathname !== '/protege-a-tu-personal-epicenter-01'
         }
         {
-          window.location.pathname !== '/licenciatarios' &&
+          window.location.pathname !== '/licenciatarios' && window.location.pathname !== '/conviertete-en-licenciatario' && window.location.pathname !== '/thanks' &&
           <FloatButton sticked={isSticky} type='info' />
         }
-        {window.location.pathname !== '/licenciatarios' &&
+        {window.location.pathname !== '/licenciatarios' && window.location.pathname !== '/conviertete-en-licenciatario' && window.location.pathname !== '/thanks' &&
         <FloatButton sticked={isSticky} type='whatsapp' />
         }
         {
