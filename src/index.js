@@ -21,13 +21,14 @@ import thanks from './views/thanks';
 import formLicenciatarios from './views/formLicenciatarios';
 import error404 from './views/Error404';
 import { Page } from 'react-facebook';
+import { ResetPassword } from './components/AppRoutes/ResetPassword';
+import { VerifyEmail } from './components/AppRoutes/VerifyEmail';
+import FAQ from './components/FAQ';
+import { unregister } from './serviceWorker';
 const browserHistory = createBrowserHistory();
-
 const App = () => {
-
   const [isSticky, setIsSticky] = useState(true);
   const [isOpenModalEpicenter, setIsOpenModalEpicenter] = useState(false);
-
   const handleScroll = () => {
     const footer = document.getElementsByClassName("footer-container")[0];
     const offset = footer.getBoundingClientRect().top;
@@ -35,14 +36,11 @@ const App = () => {
       setIsSticky(offset <= 920 ? false : true);
     }, 50)
   }
-
   const toggleModalEpicenter = () => setIsOpenModalEpicenter(!isOpenModalEpicenter);
-
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   return (
     <>
       <ModalContext.Provider value={{
@@ -63,6 +61,15 @@ const App = () => {
             <Route exact component={thanks} path="/thanks" />
             <Route exact component={formLicenciatarios} path="/conviertete-en-licenciatario" />
             <Route exact component={PostDetail} path="/prensa/:name" />
+            <Route exact path="/reset-password" component={ResetPassword}/>{' '}
+            {/* ${siteRoot}/reset-password?token=${customer.email.token} */}
+            <Route exact component={ResetPassword} path="/setPassword/:token" />
+            <Route exact path="/verify" component={VerifyEmail} />{' '}
+            {/* ${siteRoot}/verify?type=customer&token=${customer.email.token} */}
+            <Route exact path="/verify/:token" component={VerifyEmail} />
+            <Route exact path="/faq" component={FAQ} />
+            <Route exact path="/preguntasv3-ios" component={FAQ} />
+            <Route exact path="/preguntasv3-android" component={FAQ} />
             <Route path="*" component={Page404} />
           </Switch>
         </Router>
@@ -75,7 +82,6 @@ const App = () => {
         {window.location.pathname !== '/licenciatarios' &&
         <FloatButton sticked={isSticky} type='whatsapp' />
         }
-
         {
 					isOpenModalEpicenter && (
 						<ModalEpicenter
@@ -89,5 +95,4 @@ const App = () => {
     </>
   )
 }
-
 ReactDOM.render(<App />, document.getElementById('app'))
